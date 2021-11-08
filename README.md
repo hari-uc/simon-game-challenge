@@ -1,4 +1,4 @@
-# simon-game-challenge
+# [simon-game-challenge](https://hari-uc.github.io/simon-game-challenge/)
 ## Simon game challenge is a simple color guessing name.
 
 Created using HTML, CSS, JavaScript.
