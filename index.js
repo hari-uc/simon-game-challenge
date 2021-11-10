@@ -1,18 +1,19 @@
-
 var level = 1
 
 // finding which color is clicked
+
+
 $(".btn").click(function(event){
     var btncolor = (event.target.className);
     btnextcolo(btncolor);
 
-
-    $(".btn").addClass("pressed")
+    const id = $(this).attr("id");
+    $('#'+id).addClass("pressed");
     setTimeout(function() {
-        $(".btn").removeClass("pressed");
+        $("#"+id).removeClass('pressed');
     }, 200);
 
-
+    
     
     var num_1 = Math.floor(Math.random()*5);
     var num_2 = Math.floor(Math.random()*5);
